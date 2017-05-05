@@ -78,8 +78,8 @@ CREATE TABLE IF NOT EXISTS `bl_sef` (
 ) ENGINE=MRG_MyISAM DEFAULT CHARSET=utf8;
 
 -- Table data not exported because this is MRG_MYISAM table which holds its data in separate tables.
--- Дамп структуры для таблица blog.bl_setes
-CREATE TABLE IF NOT EXISTS `bl_setes` (
+-- Дамп структуры для таблица blog.bl_sites
+CREATE TABLE IF NOT EXISTS `bl_sites` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `address` varchar(255) NOT NULL,
   `description` varchar(255) NOT NULL,
